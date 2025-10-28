@@ -1,0 +1,35 @@
+{
+  "name": "@4relial/kursbca",
+  "version": "1.0.0",
+  "description": "Import-only lib to fetch BCA e-Rate (unofficial).",
+  "license": "MIT",
+  "keywords": [
+    "BCA",
+    "kurs",
+    "exchange-rate",
+    "Indonesia",
+    "scraper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4relial/KursBCA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4relial/KursBCA/issues"
+  },
+  "homepage": "https://github.com/4relial/KursBCA#readme",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./src/index.cjs",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
