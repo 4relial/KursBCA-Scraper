@@ -7,11 +7,11 @@ Dual export **ESM** dan **CommonJS**. Tanpa server/CLI.
 
 ## Instalasi (via GitHub)
 ```bash
-npm i github:4relial/KursBCA
+npm i github:4relial/KursBCA-Scraper
 # atau
-pnpm add github:4relial/KursBCA
+pnpm add github:4relial/KursBCA-Scraper
 # atau
-yarn add github:4relial/KursBCA
+yarn add github:4relial/KursBCA-Scraper
 ```
 
 ## Pemakaian
